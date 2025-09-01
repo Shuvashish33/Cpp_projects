@@ -1,0 +1,27 @@
+/*program of printing smallest 
+number between three numbers*/
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+
+  cout<<"Enter three numbers ";
+  cin>>a>>b>>c;
+  
+  if((a<b)&&(a<c))
+  {
+  cout<<"smallest number is "<<a;
+  }
+  else if((b<a)&&(b<c))
+  {
+  cout<<"smallest number is "<<b;
+  }
+  else
+  {
+  cout<<"smallest number is "<<c;
+  }
+  
+  return 0;
+}
+
